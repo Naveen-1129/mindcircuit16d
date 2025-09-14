@@ -21,7 +21,7 @@ pipeline {
         stage('Deploy to Tomcat') {
             steps {
                 echo 'This stage deploys .war to tomcat webserver'
-                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat', path: '', url: 'http://ec2-54-163-26-202.compute-1.amazonaws.com:8081/')], contextPath: 'MC-APP', war: '**/*.war'
+                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat', path: '', url: 'http://ec2-98-81-141-166.compute-1.amazonaws.com:8081/')], contextPath: 'MC-APP', war: '**/*.war'
             }
         }		
 		
