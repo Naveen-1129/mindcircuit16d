@@ -17,12 +17,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://http://54.196.184.210:8081/repository/navn-repo-snapshot/</url>
+		    <url>http://54.196.184.210:8081/repository/navn-repo-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://http://54.196.184.210:8081/repository/navn-repo-release/</url>
+		    <url>http://54.196.184.210:8081/repository/navn-repo-release/</url>
 		</repository>
   	</distributionManagement>
 
