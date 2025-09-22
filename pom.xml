@@ -17,12 +17,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://ec2-184-73-130-144.compute-1.amazonaws.com:8081/repository/navn-repo-snapshot/</url>
+		    <url>http://http://54.196.184.210:8081/repository/navn-repo-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://ec2-184-73-130-144.compute-1.amazonaws.com:8081/repository/navn-repo-release/</url>
+		    <url>http://http://54.196.184.210:8081/repository/navn-repo-release/</url>
 		</repository>
   	</distributionManagement>
 
